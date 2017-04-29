@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Group User Sign In</title>
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/infosecure.css" />
+        <link rel="icon" href="images/infosecure logo8.png"/>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1><img class="logo" src="images/infosecure logo8.png" alt="Infosecure logo">&nbsp;INFOSECURE</h1>
+        </div>
+        <h2>File sharing made easier</h2>
+        <div class="container-fluid">
+            <p>
+                <ul class="topnav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="groupuser.html">Group User</a><a class="active" href="groupuserSignIn.html">Sign In</a></li>
+                    <li><a href="groupadmin.html">Group Admin</a>
+                </ul>
+            
+            <div class="center">
+                <h3 align="center">Enter Username and Password</h3>
+                <form action="validateuser.php" method="POST" >
+                    <p>
+                        Username <input type="text" name="uname" size="20" placeholder="Enter your username" required/><br/>
+                        Password <input type="password" name="pass" size="10" placeholder="Enter password" required/><br/>
+                        <button type="submit" name="submit" class="btn-lg btn-primary"><i class="fa fa-chevron-circle-right" aria-hidden="true">&nbsp;Submit</i></button>
+                    </p>
+                </form>
+            </div>
+        </div>
+         <p>New to Infosecure? <a href="groupusersignup.html">Create an account</a></p>
+        <footer>&copy; 2017 All Rights Reserved.<br/> Developed by Giridharan, Keerthana, Mitali and Suchith</footer>
+    </body>
+</html>
